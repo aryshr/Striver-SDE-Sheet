@@ -1,3 +1,6 @@
+This question can come in 3 varieties where you can be asked to print the specific element on that row and col / to print the nth row of pascal triangle 
+/ to print the triangle of n rows
+
 package Arrays.Part_1;
 
 import java.util.*;
