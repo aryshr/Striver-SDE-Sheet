@@ -104,4 +104,23 @@ class Set_Matrix_Zeroes {
             for(int i = 0; i < n; i++) matrix[i][0] = 0;
         }
     }
+
+
+
+    //MAIN FUNCTION
+    public static void main(String[] args){
+        int[][]matrix = new int[][]{{1,1,1}, {1,0,1}, {1,1,1}};
+        int n = matrix.length;
+        int m = matrix[0].length;
+
+        setZeroes(matrix);
+
+        System.out.println("The Final matrix is: ");
+        for (int[] i: matrix) {
+            for (int ele : i) {
+                System.out.print(ele + " ");
+            }
+            System.out.println();
+        }
+    }
 }
