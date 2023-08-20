@@ -1,3 +1,5 @@
+// You can find this problem as Count inversion on Coding ninjas and Global and local inversion on leetcode
+
 package Arrays.Part_1;
 
 import java.util.ArrayList;
